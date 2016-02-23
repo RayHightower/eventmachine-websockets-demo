@@ -24,3 +24,14 @@ Details on the thinking behind this repo are posted on the [Engine Yard Blog](ht
 `$ bundle exec ruby app.rb`
 
 Then navigate a browser to `http://localhost:3000` and chat. Navigate a second browser to the same URL and chat between them. How cool is that!
+
+### Sample Phrases
+
+A few phrases for easier cut & paste during the demo...
+
+* Greetings ConFoo from the first window!
+* Salutations Confoo de la première fenêtre!
+* Message sent from the second window.
+* Message envoyé à partir de la seconde fenêtre.
+
+
