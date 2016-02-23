@@ -1,7 +1,11 @@
 Sinatra and Websockets
 ===
 
-Purpose: To see if we can make websockets work in a very light-weight Ruby/Sinatra app.
+Purpose: 
+
+* To make websockets work in a very light-weight Ruby/Sinatra app.
+
+* To make websockets work on Parallella, too.
 
 Based on the [eventmachine-websockets-demo](https://github.com/stewart/eventmachine-websockets-demo) repo created by the team at [Hybrid Group](http://hybridgroup.com).
 
@@ -19,5 +23,4 @@ Details on the thinking behind this repo are posted on the [Engine Yard Blog](ht
 
 `$ bundle exec ruby app.rb`
 
-Then navigate a browser to `http://localhost:3000` and chat. Navigate a second browser
-
+Then navigate a browser to `http://localhost:3000` and chat. Navigate a second browser to the same URL and chat between them. How cool is that!
