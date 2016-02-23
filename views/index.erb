@@ -25,11 +25,11 @@
           addMessage("Socket State: " + socket.readyState);
 
           socket.onopen = function() {
-            addMessage("Socket Status: " + socket.readyState + " (open)");
+            // addMessage("Socket Status: " + socket.readyState + " (open)");
           }
 
           socket.onclose = function() {
-            addMessage("Socket Status: " + socket.readyState + " (closed)");
+            // addMessage("Socket Status: " + socket.readyState + " (closed)");
           }
 
           socket.onmessage = function(msg) {
