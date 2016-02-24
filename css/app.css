@@ -1,8 +1,8 @@
-.container {
-  font-family: Ariel;
+html {
+  font-family: Arial, sans-serif;
 }
 
-.container h1 {
+html h1 {
   font-size: 20px;
 }
 
