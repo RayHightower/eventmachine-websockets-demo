@@ -24,7 +24,9 @@
         try {
           socket = new WebSocket(host);
 
-          addMessage("Socket State: " + socket.readyState);
+          <div class="status">
+            addMessage("Socket State: " + socket.readyState);
+          </div>
 
           socket.onopen = function() {
             // addMessage("Socket Status: " + socket.readyState + " (open)");
