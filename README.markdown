@@ -1,11 +1,11 @@
-Sinatra and Websockets
+Ruby + Sinatra + Websockets
 ===
 
 Purpose: 
 
-* To make websockets work in a very light-weight Ruby/Sinatra app.
+* To make WebSockets work in a very light-weight Ruby/Sinatra app.
 
-* To make websockets work on Parallella, too.
+* To make WebSockets work on Parallella, too.
 
 Based on the [eventmachine-websockets-demo](https://github.com/stewart/eventmachine-websockets-demo) repo created by the team at [Hybrid Group](http://hybridgroup.com).
 
@@ -13,7 +13,7 @@ Details on the thinking behind this repo are posted on the [Engine Yard Blog](ht
 
 ### Prerequisites
 
-* Ruby v 1.9.3. (I tried it with Ruby 2.3.0 and it barfed all over the place. Makes sense, since this example was written a few years ago, long before Ruby 2.3.0 existed.)
+* Ruby v 1.9.3 or v 2.15. (I tried it with Ruby 2.3.0 and it barfed all over the place. Makes sense, since this example was written a few years ago, long before Ruby 2.3.0 existed.)
 
 * RVM. Or some other tool (like [rbenv](https://github.com/rbenv/rbenv) or [chruby](https://github.com/postmodern/chruby)) for managing Ruby versions and gemsets.
 
